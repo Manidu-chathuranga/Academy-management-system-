@@ -1,0 +1,51 @@
+=== ABC Chess Club System Help ===
+
+1. Display Players
+- Shows all registered players
+- Format: [First Name] [Last Name] [DOB] [Rating]
+
+2. New Player Registration
+- Add a new chess player
+- Required information:
+  * First Name (no spaces)
+  * Last Name (no spaces)
+  * Date of Birth (YYYY-MM-DD)
+  * Rating (number)
+
+3. Search Player
+- Find players by name
+- Enter full or partial name
+- Shows all matching players
+
+4. Add Tournament
+- Schedule a new tournament
+- Required information:
+  * Tournament ID (TXXX)
+  * Name (no spaces)
+  * Type (Standard/Quick/Bullet)
+  * Date (YYYYMMDD)
+  * Time (24h format, e.g. 1400)
+  * Location (city name)
+
+5. Search Tournaments
+- Find tournaments by name
+- Enter full or partial tournament name
+- Shows all matching tournaments
+
+6. Tournaments Details
+- Remove a player record
+- Enter the player's name
+- Confirm deletion
+
+7. Help
+- Explaining all instructions
+
+8. Exit
+- Log out of the system
+- All data is automatically saved
+
+TIPS:
+- Use simple names without spaces
+- Dates must follow exact formats
+- Tournament times use 24-hour format
+- Data files: student.txt, tournament.txt
